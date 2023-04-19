@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+.body {
+	background: #EFEFBB;
+	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+	font-family: 'Lato';
+	margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.poke{
+  display: flex;
+  flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.h1 {
+	letter-spacing: 3px;
+}
+
+.pokemonContainer {
+	background-color: '#fceaff';
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0;
+	max-width: 1200px;
+}
+
+.next {
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 15%;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	margin: 20px;
+}
